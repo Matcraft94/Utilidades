@@ -12,10 +12,10 @@ for i in data:
     if 'ALL User Profile' in i:
         i = i.split(':')
         i = i[1]
-        # print(f'Nombre del wifi:{i}')
+        print(f'Nombre del wifi:{i}')
 
         i = i[1:-1]
-        # print(f'la contrasena es:{i}')
+        print(f'la contrasena es:{i}')
 
         profiles.append(i)
 
